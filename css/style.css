@@ -1,0 +1,26 @@
+/*CREATE BY WU JIANFENG
+* 2016.04.12
+* https://isjeff.com
+*/
+
+body{
+	margin:0;
+	padding:0;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+@-webkit-keyframes zoom-out {
+	0%   {-webkit-transform:scale(1.0);}
+	50%  {-webkit-transform:scale(1.2);}
+	100%  {-webkit-transform:scale(1.0);}
+}
+
+.test> img{
+	
+	animation-name: zoom-out;
+  
+	/*TIME*/
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+
+}
